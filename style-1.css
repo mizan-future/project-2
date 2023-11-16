@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 24px 0;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p,
+li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 24px 0;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #F3F3F3;
+    cursor: pointer;
+    margin: 24px 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 26px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-body-gap {
+    margin: 0 230px;
+    padding: 130px 0;
+}
+
+header {
+    background-image: url(images/banner/banner1.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-info {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 0 230px 0 0;
+    text-align: right;
+}
+
+header h1 {
+    margin: 0 0 24px;
+}
+
+#failures .list ul li {
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+#failures.flex {
+    align-items: flex-end;
+    gap: 6rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bgimg {
+    width: 530px;
+    height: 530px;
+    background: #F15B2233 20%;
+    position: absolute;
+    top: 27%;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.cards {
+    margin: 7rem 0 0;
+    gap: 2.5rem;
+}
+
+.cards .card.flex {
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#gradient {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),
+        url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 30vh;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    color: #F3F3F3;
+}
+
+#gradient .btn-primary,
+footer form .btn-primary {
+    color: #F15B22;
+    background: #F3F3F3;
+}
+
+footer.common-body-gap {
+    margin: 130px 0 0;
+    padding: 130px 230;
+    background: #151414;
+}
+
+footer.flex {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer h2,
+footer h5,
+footer p {
+    color: #F3F3F3;
+}
+footer .future-info .icon.flex{
+    cursor: pointer;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+footer form.flex{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .contact form input{
+    background: #151414;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    margin-top: 1.5rem;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+input[type=text]:focus {
+    border: 3px solid #cdcd42;
+}
